@@ -7,7 +7,7 @@
 }
 
 .logoPhoto{
-    width: 200px;
+    width: 120px;
     padding: 10px;
 }
 
@@ -44,7 +44,10 @@
     align-items: center;
     height: 100vh;
     /* border: 10px solid yellow; */
-    background-image: url("/background.png"),linear-gradient(45deg,rgb(24, 24, 24),rgb(37, 35, 35));
+    background-image: url("/background.png"),linear-gradient(45deg,rgb(19, 18, 18),rgb(40, 38, 38));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .btn{
@@ -54,6 +57,7 @@
     border-radius: 2px;
     padding: 10px;
     cursor: pointer;
+    margin-top: 5px;
 }
 
 .btn:hover{
@@ -62,8 +66,51 @@
 
 .mainHeader{
     font-size: 42px;
+    margin: 0px;
 }
 
 .text{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
+.header2{
+    text-align: center;
+    font-size: 70px;
+}
+
+.about-photo{
+    width: 280px;
+}
+
+.about-container{
+    display: flex;
+    justify-content:space-around;
+}
+
+.title{
+    /* text-align: left; */
+    padding-top: 30px;
+}
+
+.about-text{
+    font-size: 20px;
+    /* position: initial; */
+}
+
+.btn2{
+    background-color: red;
+    padding: 15px;
+    border-radius: 2px;
+    color: white;
+    border: none;
+}
+
+.second{
+    height: 100vh;
+}
+
+.header2{
+    margin-top: 20px;
 }
